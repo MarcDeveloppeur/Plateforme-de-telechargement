@@ -1,0 +1,74 @@
+.body{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+}
+.navbarBlock{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  background-color: rgb(87, 87, 87);
+  height: 70px;
+  margin:10px 0;
+}
+.classesblock a{
+  margin-left:50px;
+  text-decoration: none;
+  color:#eee;
+  font-size: 1rem;
+}
+.classesblock{
+  margin-right: 300px;
+}
+.logoCntemad{
+  height:50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px blue;
+}
+
+.mainblock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width:100%;
+}
+.menus{
+  margin-right: 5px;
+}
+.footer{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height:120px;
+  width:100%;
+  background-color: rgb(87, 87, 87);
+}
+.copyright{
+  font-style: italic;
+}
+.socialLink{
+  color:black;
+  margin-right: 10px;
+}
+
+.classe:hover{
+  color:#eee;
+}
+@media all and (max-width:920px) {
+  .navbarBlock{
+    height:150px;
+  }
+  .classesblock a{
+    margin-left: 35px;
+  }
+  .classesblock{
+    margin-right:20px;
+  }
+}
